@@ -954,13 +954,13 @@
                 <Visible>True</Visible>
               </GUIButton>
               <GUIInventory>
-                <ItemWidth>80</ItemWidth>
-                <ItemHeight>80</ItemHeight>
+                <ItemWidth>75</ItemWidth>
+                <ItemHeight>75</ItemHeight>
                 <CharacterID>-1</CharacterID>
                 <Height>150</Height>
                 <Locked>False</Locked>
-                <Width>480</Width>
-                <Left>1021</Left>
+                <Width>450</Width>
+                <Left>1023</Left>
                 <Top>0</Top>
                 <ZOrder>11</ZOrder>
                 <ID>11</ID>
@@ -2258,8 +2258,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>0</CursorImage>
-            <Image>0</Image>
+            <CursorImage>76</CursorImage>
+            <Image>76</Image>
             <Description xml:space="preserve">Tarjeta de credito</Description>
             <Name>iCreditCard</Name>
             <Properties />
@@ -2276,8 +2276,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>0</CursorImage>
-            <Image>0</Image>
+            <CursorImage>66</CursorImage>
+            <Image>66</Image>
             <Description xml:space="preserve">Tarjeta del club de fans del Fary</Description>
             <Name>iFaryCard</Name>
             <Properties />
@@ -2305,6 +2305,42 @@
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4">iLever_OtherClick</Event>
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>8</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>68</CursorImage>
+            <Image>68</Image>
+            <Description>Movil</Description>
+            <Name>iMobile</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>9</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>69</CursorImage>
+            <Image>69</Image>
+            <Description xml:space="preserve">Mando de la tele</Description>
+            <Name>iRemoteControl</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
             </Interactions>
           </InventoryItem>
         </InventoryItems>
@@ -4943,13 +4979,13 @@ stop]]></Script>
           <SpriteFolder Name="inventory">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="62" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="62" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\abrigo.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4958,13 +4994,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="63" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="63" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\bala.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4973,13 +5009,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="64" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="64" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\billete.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4988,13 +5024,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="65" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="65" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\cargador.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5003,13 +5039,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="66" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="66" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\carné fary.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5018,13 +5054,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="67" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="67" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\cartera.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5033,13 +5069,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="68" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="68" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\iphone.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5048,13 +5084,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="69" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="69" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\mando.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5063,13 +5099,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="70" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="70" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\moneda 1.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5078,13 +5114,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="71" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="71" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\moneda 2.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5108,13 +5144,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="73" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="73" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\pastilla ibuprofeno.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5123,13 +5159,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="74" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="74" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\reloj.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5138,13 +5174,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="75" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="75" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\tabaco.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5153,13 +5189,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="76" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="76" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\tarjeta credito.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5168,13 +5204,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="94" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="94" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\vaso lleno.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5183,13 +5219,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="101" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="101" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\objetos inventario\vaso vacio.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>80</ImportHeight>
-                  <ImportWidth>80</ImportWidth>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>75</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5440,13 +5476,13 @@ stop]]></Script>
               <SpriteFolder Name="living-room">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="114" Width="89" Height="193" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="114" Width="178" Height="385" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\puerta.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>193</ImportHeight>
-                      <ImportWidth>89</ImportWidth>
+                      <ImportHeight>385</ImportHeight>
+                      <ImportWidth>178</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5455,13 +5491,13 @@ stop]]></Script>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="122" Width="40" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="122" Width="79" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\iPhone.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>12</ImportHeight>
-                      <ImportWidth>40</ImportWidth>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>79</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5470,13 +5506,13 @@ stop]]></Script>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="123" Width="34" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="123" Width="67" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\mando.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>12</ImportHeight>
-                      <ImportWidth>34</ImportWidth>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>67</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5485,13 +5521,13 @@ stop]]></Script>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="124" Width="111" Height="111" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="124" Width="221" Height="221" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\reloj.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>111</ImportHeight>
-                      <ImportWidth>111</ImportWidth>
+                      <ImportHeight>221</ImportHeight>
+                      <ImportWidth>221</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5500,13 +5536,13 @@ stop]]></Script>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="125" Width="100" Height="124" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="125" Width="200" Height="248" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\tele.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>124</ImportHeight>
-                      <ImportWidth>100</ImportWidth>
+                      <ImportHeight>248</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5515,13 +5551,13 @@ stop]]></Script>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="126" Width="25" Height="34" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="126" Width="49" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\vaso lleno.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>34</ImportHeight>
-                      <ImportWidth>25</ImportWidth>
+                      <ImportHeight>67</ImportHeight>
+                      <ImportWidth>49</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5530,13 +5566,13 @@ stop]]></Script>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="127" Width="25" Height="35" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="127" Width="50" Height="69" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\salon\vaso vacio.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>35</ImportHeight>
-                      <ImportWidth>25</ImportWidth>
+                      <ImportHeight>69</ImportHeight>
+                      <ImportWidth>50</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
