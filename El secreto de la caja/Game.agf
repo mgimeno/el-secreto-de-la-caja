@@ -79,7 +79,7 @@
       <SaveGameFolderName xml:space="preserve">El secreto de la caja</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
       <AudioIndexer>10</AudioIndexer>
-      <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
+      <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
     <RuntimeSetup>
@@ -2211,7 +2211,7 @@
             <Properties />
             <Interactions>
               <Event Index="0">iCharger_OtherClick</Event>
-              <Event Index="1">iCharger_OtherClick</Event>
+              <Event Index="1" />
               <Event Index="2">iCharger_OtherClick</Event>
               <Event Index="3">iCharger_OtherClick</Event>
               <Event Index="4">iCharger_OtherClick</Event>
@@ -2247,7 +2247,7 @@
             <Properties />
             <Interactions>
               <Event Index="0">iWallet_OtherClick</Event>
-              <Event Index="1">iWallet_OtherClick</Event>
+              <Event Index="1" />
               <Event Index="2">iWallet_OtherClick</Event>
               <Event Index="3">iWallet_OtherClick</Event>
               <Event Index="4">iWallet_OtherClick</Event>
@@ -2265,7 +2265,7 @@
             <Properties />
             <Interactions>
               <Event Index="0">iCreditCard_OtherClick</Event>
-              <Event Index="1">iCreditCard_OtherClick</Event>
+              <Event Index="1" />
               <Event Index="2">iCreditCard_OtherClick</Event>
               <Event Index="3">iCreditCard_OtherClick</Event>
               <Event Index="4">iCreditCard_OtherClick</Event>
@@ -2283,7 +2283,7 @@
             <Properties />
             <Interactions>
               <Event Index="0">iFaryCard_OtherClick</Event>
-              <Event Index="1">iFaryCard_OtherClick</Event>
+              <Event Index="1" />
               <Event Index="2">iFaryCard_OtherClick</Event>
               <Event Index="3">iFaryCard_OtherClick</Event>
               <Event Index="4">iFaryCard_OtherClick</Event>
@@ -2300,10 +2300,10 @@
             <Name>iLever</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iLever_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="2">iLever_OtherClick</Event>
+              <Event Index="3">iLever_OtherClick</Event>
               <Event Index="4">iLever_OtherClick</Event>
             </Interactions>
           </InventoryItem>
@@ -2318,11 +2318,11 @@
             <Name>iMobile</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iMobile_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="2">iMobile_OtherClick</Event>
+              <Event Index="3">iMobile_OtherClick</Event>
+              <Event Index="4">iMobile_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2336,10 +2336,10 @@
             <Name>iRemoteControl</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iRemoteControl_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="2">iRemoteControl_OtherClick</Event>
+              <Event Index="3">iRemoteControl_OtherClick</Event>
               <Event Index="4">iRemoteControl_OtherClick</Event>
             </Interactions>
           </InventoryItem>
@@ -2354,11 +2354,11 @@
             <Name>iClock</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iClock_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="2">iClock_OtherClick</Event>
+              <Event Index="3">iClock_OtherClick</Event>
+              <Event Index="4">iClock_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2372,11 +2372,11 @@
             <Name>iWaterGlass</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="0">iWaterGlass_OtherClick</Event>
+              <Event Index="1">iWaterGlass_OtherClick</Event>
+              <Event Index="2">iWaterGlass_OtherClick</Event>
+              <Event Index="3">iWaterGlass_OtherClick</Event>
+              <Event Index="4">iWaterGlass_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2390,11 +2390,11 @@
             <Name>iEmptyGlass</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iEmptyGlass_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="2">iEmptyGlass_OtherClick</Event>
+              <Event Index="3">iEmptyGlass_OtherClick</Event>
+              <Event Index="4">iEmptyGlass_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2408,11 +2408,11 @@
             <Name>iTwoEuroCoin</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="0">iTwoEuroCoin_OtherClick</Event>
+              <Event Index="1">iTwoEuroCoin_OtherClick</Event>
+              <Event Index="2">iTwoEuroCoin_OtherClick</Event>
+              <Event Index="3">iTwoEuroCoin_OtherClick</Event>
+              <Event Index="4">iTwoEuroCoin_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2426,11 +2426,11 @@
             <Name>iOneEuroCoin</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="0">iOneEuroCoin_OtherClick</Event>
+              <Event Index="1">iTwoEuroCoin_OtherClick</Event>
+              <Event Index="2">iOneEuroCoin_OtherClick</Event>
+              <Event Index="3">iOneEuroCoin_OtherClick</Event>
+              <Event Index="4">iOneEuroCoin_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2444,47 +2444,47 @@
             <Name>iTenEuroNote</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="0">iTenEuroNote_OtherClick</Event>
+              <Event Index="1">iTwoEuroCoin_OtherClick</Event>
+              <Event Index="2">iTenEuroNote_OtherClick</Event>
+              <Event Index="3">iTenEuroNote_OtherClick</Event>
+              <Event Index="4">iTenEuroNote_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
             <ID>16</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <CursorImage>63</CursorImage>
             <Image>63</Image>
             <Description xml:space="preserve">Bala de fusil</Description>
             <Name>iBullet</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="0">iBullet_OtherClick</Event>
+              <Event Index="1">iBullet_OtherClick</Event>
+              <Event Index="2">iBullet_OtherClick</Event>
+              <Event Index="3">iBullet_OtherClick</Event>
+              <Event Index="4">iBullet_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
             <ID>17</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <CursorImage>73</CursorImage>
             <Image>73</Image>
             <Description>Ibuprofeno</Description>
             <Name>iIbuprofen</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="0">iIbuprofen_OtherClick</Event>
+              <Event Index="1">iIbuprofen_OtherClick</Event>
+              <Event Index="2">iIbuprofen_OtherClick</Event>
+              <Event Index="3">iIbuprofen_OtherClick</Event>
+              <Event Index="4">iIbuprofen_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2498,11 +2498,11 @@
             <Name>iBatteries</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iBatteries_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="2">iBatteries_OtherClick</Event>
+              <Event Index="3">iBatteries_OtherClick</Event>
+              <Event Index="4">iBatteries_OtherClick</Event>
             </Interactions>
           </InventoryItem>
           <InventoryItem>
@@ -2516,11 +2516,11 @@
             <Name>iClosetKey</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iClosetKey_OtherClick</Event>
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="2">iClosetKey_OtherClick</Event>
+              <Event Index="3">iClosetKey_OtherClick</Event>
+              <Event Index="4">iClosetKey_OtherClick</Event>
             </Interactions>
           </InventoryItem>
         </InventoryItems>
@@ -2768,7 +2768,7 @@
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
-              <Event Index="4">hCabarra_AnyClick</Event>
+              <Event Index="4">cCabarra_AnyClick</Event>
               <Event Index="5" />
               <Event Index="6" />
               <Event Index="7" />
@@ -2808,7 +2808,7 @@
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
-              <Event Index="4">hElena_AnyClick</Event>
+              <Event Index="4">cElena_AnyClick</Event>
               <Event Index="5" />
               <Event Index="6" />
               <Event Index="7" />
@@ -2830,52 +2830,53 @@
 @S  // Dialog startup entry point
 return
 @1
-Cabarra: Hola Juan, que tal?
+Cabarra: Si, claro
+Cabarra: Son once euros
+  if(player.HasInventory(iTenEuroNote) && player.HasInventory(iOneEuroCoin)){
+Juan: Toma anda
+  player.LoseInventory(iTenEuroNote);
+  player.LoseInventory(iOneEuroCoin);
+Cabarra: Perfecto, aqui lo tienes
+  player.AddInventory(iCharger);
+Option-Off 1
+  }
+  else{
+Juan: Eso es mas de lo que gaste en crema de la belleza, no tengo tanto dinero..
+Cabarra: Haber estudiao
+  dElena.SetOptionState(6,eOptionOn);
+  hasNeedToSwapWaterGlassWithEmptyGlass = true;
+  }
 return
 
 @2
-Cabarra: Si claro, son 12 euros.
-Juan: Eso es mas de lo que gaste en crema de la belleza, no tengo tanto dinero..
+Cabarra: Si claro
+Cabarra: Es un euro
+Juan: Toma
+  player.LoseInventory(iTwoEuroCoin);
+Cabarra: Gracias, ahi tienes un euro de cambio
+  player.AddInventory(iOneEuroCoin);
+  player.AddInventory(iBullet);
+Option-Off 2
 return
 
 @3
-Cabarra: Ciao.
-return
-
-@4
-Cabarra: Ciao.
-return
-
-@5
-Cabarra: Ciao.
+Cabarra: Hasta luego
 stop]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
-                <Text xml:space="preserve">Vendes balas para fusiles?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
                 <Text xml:space="preserve">Vendes cargadores para iPhone?</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Vendes balas para fusiles?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">Otra pregunta</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>4</ID>
-                <Text xml:space="preserve">Y otra</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>5</ID>
                 <Text xml:space="preserve">Me piro</Text>
                 <Show>True</Show>
                 <Say>True</Say>
@@ -2890,53 +2891,146 @@ stop]]></Script>
 @S  // Dialog startup entry point
 return
 @1
-Elena: Hola Juan, que tal?
+Elena: Nada, pasar el rato
+Juan: Eso se nos da bien
+Elena: Si
+Juan: jajaja
+Elena: jajaja
 return
 
 @2
-Elena: Si claro, son 12 euros.
-Juan: Eso es mas de lo que gaste en crema de la belleza, no tengo tanto dinero..
-return
+Elena: Tu sabras, adicto al movil, busca por ahi
+Juan: Vale
+Elena: Espera, una cosa...
+Juan: Que?
+Elena: No se come en esta casa o que?
+Juan: Joder...
+Option-Off-Forever 2
+Option-On 3
+stop
 
 @3
-Elena: Ciao.
+Elena: Muy interesante eso que me cuentas 
+Juan: Elena esto es importante
+Juan: Necesito actualizar la alineacion del Hattrick..
+Juan: Quiero decir... necesito leer el mensaje
+Elena: Ahora que lo dices...
+Elena: Te lo dejaste en casa de mis padres
+Elena: y estan de vacaciones en Utebo
+Juan: Cojonudo!
+Elena: Si tan importante es, puedes comprar uno nuevo en el Badulaque
+Juan: Buena idea!
+Juan: Voy para alla!
+Elena: Espera, una cosa...
+Juan: Que?
+Elena: Mas viejo que las puertas eres
+Juan: Cabron
+  hasNeedToGoOutFromHome = true;
+Option-Off 3
 return
 
 @4
-Elena: Ciao.
+Elena: Si, la tengo yo
+Juan: Anda dejamela que la necesito
+Elena: Anda, arregla primero el reloj de la pared que se ha parado y te las doy
+Juan: Vale
+  hasNeedToFixClock = true;
 return
 
+
 @5
-Elena: Ciao.
-stop]]></Script>
+Elena: Vale, toma la llave del armario
+Juan: Perfecto
+  player.AddInventory(iClosetKey);
+Option-Off-Forever 5
+return
+
+@6
+Elena: Aham...
+  if(player.HasInventory(iTwoEuroCoin)){
+Juan: Cuesta once euros y apenas tengo dos euros
+  }
+  else{
+Juan: Cuesta once euros y no tengo un centimo
+  }
+Elena: Aham...
+Juan: Anda dejame dinero
+  if(player.HasInventory(iTwoEuroCoin)){
+Elena: Venga te dejo diez euros
+Juan: Cojonudo!
+  }
+  else{
+Elena: Pues no tengo mas que un billete de diez
+Juan: Joder
+Juan: Bueno, algo es algo, dejamelo y ya me las ingeniare
+  }
+Elena: Vale, pero antes traeme una pastilla que me duele la cabeza
+Juan: Vale
+Elena: Y traeme un vaso de agua para tomar la pastilla
+Juan: Pides mas que vales
+Elena: Ya estas tardando
+Juan: Voy!
+return
+
+
+@7
+Elena: Si, toma
+  player.AddInventory(iTenEuroNote);
+Elena: A devolver eh
+Juan: La leche jodia
+Option-Off-Forever 7
+return
+
+@8
+Elena: Ciao
+stop
+]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
-                <Text>Hola</Text>
+                <Text xml:space="preserve">Que haces?</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
-                <Text xml:space="preserve">opt 2</Text>
-                <Show>True</Show>
+                <Text xml:space="preserve">Sabes donde esta mi cargador del movil?</Text>
+                <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">op 3</Text>
-                <Show>True</Show>
+                <Text xml:space="preserve">En serio, no encuentro mi cargador</Text>
+                <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
-                <Text xml:space="preserve">op 4</Text>
-                <Show>True</Show>
+                <Text xml:space="preserve">Sabes donde esta la llave del armario?</Text>
+                <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>5</ID>
-                <Text xml:space="preserve">opt 5</Text>
+                <Text xml:space="preserve">Ya he arreglado el reloj</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>6</ID>
+                <Text xml:space="preserve">He ido a comprar el cargador</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>7</ID>
+                <Text xml:space="preserve">Ya tienes lo que querias, me dejas los diez euros?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>8</ID>
+                <Text xml:space="preserve">Hasta ahora</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3386,6 +3480,56 @@ stop]]></Script>
       <Variables>
         <GlobalVariable>
           <Name>hasBeenOutsideHome</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasBeenInLivingRoom</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasNeedToGoOutFromHome</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasNeedToFixClock</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasPutBatteriesOnClock</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasBedroomClosetBeenOpenedWithKey</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasNeedToSwapWaterGlassWithEmptyGlass</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasGivenWaterGlassToElena</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasGivenIbuprofenToElena</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>isMobileCharging</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>isMobileCharged</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
