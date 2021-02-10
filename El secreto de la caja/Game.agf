@@ -2204,8 +2204,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>0</CursorImage>
-            <Image>0</Image>
+            <CursorImage>65</CursorImage>
+            <Image>65</Image>
             <Description>Cargador</Description>
             <Name>iCharger</Name>
             <Properties />
@@ -2455,7 +2455,7 @@
             <ID>16</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>63</CursorImage>
             <Image>63</Image>
             <Description xml:space="preserve">Bala de fusil</Description>
@@ -2473,7 +2473,7 @@
             <ID>17</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>73</CursorImage>
             <Image>73</Image>
             <Description>Ibuprofeno</Description>
@@ -2738,7 +2738,7 @@
             <ID>1</ID>
             <ScriptName>cCabarra</ScriptName>
             <RealName>Cabarra</RealName>
-            <NormalView>4</NormalView>
+            <NormalView>1</NormalView>
             <SpeechView>2</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -2778,7 +2778,7 @@
             <ID>2</ID>
             <ScriptName>cElena</ScriptName>
             <RealName>Elena</RealName>
-            <NormalView>4</NormalView>
+            <NormalView>1</NormalView>
             <SpeechView>3</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -2814,6 +2814,46 @@
               <Event Index="7" />
             </Interactions>
           </Character>
+          <Character>
+            <ID>3</ID>
+            <ScriptName>cAntonov</ScriptName>
+            <RealName>Antonov</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>1</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>3</StartingRoom>
+            <StartX>202</StartX>
+            <StartY>873</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>10</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4">cAntonov_AnyClick</Event>
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
         </Characters>
       </CharacterFolder>
     </Characters>
@@ -2836,7 +2876,7 @@ Cabarra: Son once euros
 Juan: Toma anda
   player.LoseInventory(iTenEuroNote);
   player.LoseInventory(iOneEuroCoin);
-Cabarra: Perfecto, aqui lo tienes
+Cabarra: Una gran compra
   player.AddInventory(iCharger);
 Option-Off 1
   }
@@ -2846,17 +2886,28 @@ Cabarra: Haber estudiao
   dElena.SetOptionState(6,eOptionOn);
   hasNeedToSwapWaterGlassWithEmptyGlass = true;
   }
+  dElena.SetOptionState(3,eOptionOffForever);
 return
 
 @2
 Cabarra: Si claro
 Cabarra: Es un euro
+  if(player.HasInventory(iTwoEuroCoin)){
 Juan: Toma
   player.LoseInventory(iTwoEuroCoin);
-Cabarra: Gracias, ahi tienes un euro de cambio
-  player.AddInventory(iOneEuroCoin);
+Cabarra: Gracias, ahi tienes tu bala
   player.AddInventory(iBullet);
+Cabarra: Y un euro de cambio
+  player.AddInventory(iOneEuroCoin);
+Juan: Gracias!
+Cabarra: A mandar
 Option-Off 2
+  }
+  else{
+Juan: Joder, no seas raton, invitate a algo
+Cabarra: Esta la cosa muy mala tio
+Juan: Buff, vale
+  }
 return
 
 @3
@@ -2926,7 +2977,6 @@ Juan: Que?
 Elena: Mas viejo que las puertas eres
 Juan: Cabron
   hasNeedToGoOutFromHome = true;
-Option-Off 3
 return
 
 @4
@@ -2948,14 +2998,17 @@ return
 @6
 Elena: Aham...
   if(player.HasInventory(iTwoEuroCoin)){
-Juan: Cuesta once euros y apenas tengo dos euros
+Juan: Cuesta once euros y solo tengo dos
+  }
+  else if(player.HasInventory(iOneEuroCoin)){
+Juan: Cuesta once euros y solo tengo uno
   }
   else{
 Juan: Cuesta once euros y no tengo un centimo
   }
 Elena: Aham...
 Juan: Anda dejame dinero
-  if(player.HasInventory(iTwoEuroCoin)){
+  if(player.HasInventory(iTwoEuroCoin) || player.HasInventory(iOneEuroCoin)){
 Elena: Venga te dejo diez euros
 Juan: Cojonudo!
   }
@@ -2964,12 +3017,24 @@ Elena: Pues no tengo mas que un billete de diez
 Juan: Joder
 Juan: Bueno, algo es algo, dejamelo y ya me las ingeniare
   }
-Elena: Vale, pero antes traeme una pastilla que me duele la cabeza
+  if(hasGivenIbuprofenToElena){
+Elena: Vale pero traeme el vaso de agua para tomar la pastilla
+Juan: Voy!
+  }
+  else if(hasGivenWaterGlassToElena){
+Elena: Vale pero traeme una pastilla, que me duele la cabeza
+Juan: Voy!
+  }
+  else{
+Elena: Vale, pero antes traeme una pastilla, que me duele la cabeza
 Juan: Vale
 Elena: Y traeme un vaso de agua para tomar la pastilla
 Juan: Pides mas que vales
 Elena: Ya estas tardando
 Juan: Voy!
+  canPickupEmptyGlass = true;
+  dAntonov.SetOptionState(2,eOptionOn);
+  }
 return
 
 
@@ -3031,6 +3096,65 @@ stop
               <DialogOption>
                 <ID>8</ID>
                 <Text xml:space="preserve">Hasta ahora</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dAntonov</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+
+@1
+Antonov: Proteger el Ayuntamiento de una posible invasion
+Juan: Cojonudo!
+return
+
+@2
+Antonov: Si, claro, con tanto disparo al final me duele la cabeza
+Juan: Me das una pastilla?
+Antonov: Favor por favor camarada, me he quedado sin balas
+Antonov: Te hago un trueque, una pastilla por una bala
+  if(player.HasInventory(iBullet)){
+Juan: Vale, aqui tienes
+  player.LoseInventory(iBullet);
+Antonov: Me encanta el olor a polvora
+Antonov: Aqui tienes tu pastilla, no te la comas toda de golpe
+  player.AddInventory(iIbuprofen);
+Juan: Gracias camarada
+Option-Off-Forever 2
+  }
+  else{
+Juan: No suelo llevar encima, pero te voy a conseguir una
+Juan: Todo por una noble causa
+  dCabarra.SetOptionState(2,eOptionOn);
+  }
+return
+
+@3
+Antonov: Adios camarada
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Que haces aqui?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Tienes algo para el dolor de cabeza?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text>Adios</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3530,6 +3654,16 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>isMobileCharged</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasNeedToImmediatelyShowLivingRoomWaterGlass</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>canPickupEmptyGlass</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -6300,6 +6434,24 @@ stop
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
               </Loop>
             </Loops>
           </View>
