@@ -2024,53 +2024,36 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
-              <Height>200</Height>
-              <Width>320</Width>
+              <OnClick>gQuit_OnClick</OnClick>
+              <Height>1080</Height>
+              <Width>1920</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
+              <ZOrder>10000</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>99</BackgroundImage>
+              <BackgroundColor>40</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
               <ID>5</ID>
               <Name>gQuit</Name>
             </NormalGUI>
             <Controls>
               <GUILabel>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>8454</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">Quit Game</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>238</Width>
-                <Left>45</Left>
-                <Top>61</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>lblQuitHeadline</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Center</TextAlignment>
                 <TextColor>52895</TextColor>
                 <Font>1</Font>
-                <Text xml:space="preserve">Are you sure you want to quit?</Text>
-                <Height>14</Height>
-                <Locked>False</Locked>
-                <Width>236</Width>
+                <Text xml:space="preserve">Seguro que quieres salir?</Text>
+                <Height>780</Height>
+                <Locked>True</Locked>
+                <Width>1920</Width>
                 <Left>45</Left>
-                <Top>82</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
+                <Top>300</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
                 <Name>lblQuitMessage</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -2084,17 +2067,17 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>85</PushedImage>
-                <MouseoverImage>100</MouseoverImage>
-                <Image>84</Image>
-                <Text>Yes</Text>
-                <Height>14</Height>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Si</Text>
+                <Height>50</Height>
                 <Locked>False</Locked>
-                <Width>49</Width>
-                <Left>175</Left>
-                <Top>114</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
+                <Width>120</Width>
+                <Left>830</Left>
+                <Top>540</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
                 <Name>btnQuitYes</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -2105,20 +2088,20 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
+                <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>85</PushedImage>
-                <MouseoverImage>100</MouseoverImage>
-                <Image>84</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text>No</Text>
-                <Height>14</Height>
+                <Height>50</Height>
                 <Locked>False</Locked>
-                <Width>49</Width>
-                <Left>229</Left>
-                <Top>114</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
+                <Width>120</Width>
+                <Left>1060</Left>
+                <Top>540</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
                 <Name>btnQuitNo</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -2877,7 +2860,52 @@
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+
 @1
+Cabarra: He pedido un credito para volver a abrir
+Juan: Brillante decision
+Cabarra: Le veo futuro a este negocio
+Juan: Claro que si
+Option-Off-Forever 1
+return
+
+@2
+Cabarra: Si claro, de que tipo?
+Juan: Para un fusil de la epoca Napoleonica
+Cabarra: Pues justo he gastado hoy la ultima...
+Cabarra: Quiero decir, la he vendido
+Juan: No me jodas
+Cabarra: Que no, es broma ja ja como soy...
+Cabarra: Me quedan aun muchas
+Juan: Cuanto por una?
+Cabarra: Un euro
+  if(player.HasInventory(iTwoEuroCoin)){
+Juan: Toma
+  player.LoseInventory(iTwoEuroCoin);
+Cabarra: Gracias, ahi tienes tu bala
+  player.AddInventory(iBullet);
+Cabarra: Y un euro de cambio
+  player.AddInventory(iOneEuroCoin);
+  dAntonov.SetOptionState(2, eOptionOffForever);
+  dAntonov.SetOptionState(3, eOptionOn);
+Juan: Gustor!
+Cabarra: A mandar
+Option-Off-Forever 2
+  }
+  else{
+Juan: Joder, no seas raton, invitate a algo
+Cabarra: Esta la cosa muy mala tio
+Juan: Buff, vale, voy a por dinero
+  }
+return
+
+@3
+Cabarra: Lo siento, la DGA no me deja vender medicamentos
+Cabarra: Y esta quijotera superior que el Monstruo del Espaguetti Volador me ha dado, nunca sufre de cefaleas
+Juan: Tiene sentido
+return
+
+@4
 Cabarra: Si, claro
 Cabarra: Son once euros
   if(player.HasInventory(iTenEuroNote) && player.HasInventory(iOneEuroCoin)){
@@ -2886,56 +2914,129 @@ Juan: Toma anda
   player.LoseInventory(iOneEuroCoin);
 Cabarra: Una gran compra
   player.AddInventory(iCharger);
-Option-Off 1
+Option-Off-Forever 4
   }
   else{
-Juan: Eso es mas de lo que gaste en crema de la belleza, no tengo tanto dinero..
+Juan: Eso es mas de lo que gaste en crema de la belleza, no tengo tanto dinero...
 Cabarra: Haber estudiao
+Juan: Joder
   dElena.SetOptionState(6,eOptionOn);
   hasNeedToSwapWaterGlassWithEmptyGlass = true;
   }
   dElena.SetOptionState(3,eOptionOffForever);
 return
 
-@2
-Cabarra: Si claro
-Cabarra: Es un euro
-  if(player.HasInventory(iTwoEuroCoin)){
-Juan: Toma
-  player.LoseInventory(iTwoEuroCoin);
-Cabarra: Gracias, ahi tienes tu bala
-  player.AddInventory(iBullet);
-Cabarra: Y un euro de cambio
-  player.AddInventory(iOneEuroCoin);
-Juan: Gracias!
-Cabarra: A mandar
+@5
+Cabarra: eh...
+Cabarra: eh.. es salsa de un Kebab que me ha traido mi novia rumanya
+Juan: Y donde esta la rumanya?
+Cabarra: eh...
+Cabarra: eh... no se, ha desaparecido
+  wasCabarraDialogOptOnOne = dCabarra.GetOptionState(1);
+  wasCabarraDialogOptOnTwo = dCabarra.GetOptionState(2);
+  wasCabarraDialogOptOnThree = dCabarra.GetOptionState(3);
+  wasCabarraDialogOptOnFour = dCabarra.GetOptionState(4);
+Option-Off 1
 Option-Off 2
-  }
-  else{
-Juan: Joder, no seas raton, invitate a algo
-Cabarra: Esta la cosa muy mala tio
-Juan: Buff, vale
-  }
+Option-Off 3
+Option-Off 4
+Option-Off-Forever 5
+Option-On 6
+Option-On 7
+Option-Off 8
 return
 
-@3
+@6
+Cabarra: eh... no, que cosas tienes...
+Cabarra: Creo que dijo que se volvia a su pais y que ya nunca mas volvera
+Cabarra: Era una cuestion de vida...
+Juan: o muerte...
+Cabarra: je je
+Option-Off-Forever 6
+Option-Off-Forever 7
+  if(wasCabarraDialogOptOnOne){
+Option-On 1  
+  }
+  if(wasCabarraDialogOptOnTwo){
+Option-On 2 
+  }
+  if(wasCabarraDialogOptOnThree){
+Option-On 3  
+  }
+  if(wasCabarraDialogOptOnFour){
+Option-On 4
+  }
+Option-On 8
+return
+
+@7
+Cabarra: Claro...
+Option-Off-Forever 6
+Option-Off-Forever 7
+  if(wasCabarraDialogOptOnOne){
+Option-On 1  
+  }
+  if(wasCabarraDialogOptOnTwo){
+Option-On 2 
+  }
+  if(wasCabarraDialogOptOnThree){
+Option-On 3  
+  }
+  if(wasCabarraDialogOptOnFour){
+Option-On 4
+  }
+Option-On 8
+return
+
+@8
 Cabarra: Hasta luego
-stop]]></Script>
+stop
+]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
-                <Text xml:space="preserve">Vendes cargadores para iPhone?</Text>
+                <Text xml:space="preserve">Pensaba que habias cerrado la cabanya</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
-                <Text xml:space="preserve">Vendes balas para fusiles?</Text>
+                <Text xml:space="preserve">Vendes balas?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
+                <Text xml:space="preserve">Tienes algo para el dolor de cabeza?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text xml:space="preserve">Vendes cargadores para iPhone?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Text xml:space="preserve">Y esas manchas de tomate que van hacia el sotano?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>6</ID>
+                <Text xml:space="preserve">No estara en el sotano, durmiendo profundamente?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>7</ID>
+                <Text xml:space="preserve">Si claro...</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>8</ID>
                 <Text xml:space="preserve">Me piro</Text>
                 <Show>True</Show>
                 <Say>True</Say>
@@ -2991,7 +3092,7 @@ return
 Elena: Si, la tengo yo
 Juan: Anda dejamela que la necesito
 Elena: Anda, arregla primero el reloj de la pared que se ha parado y te las doy
-Juan: Vale
+Juan: Voy!
   hasNeedToFixClock = true;
 return
 
@@ -3042,12 +3143,13 @@ Elena: Ya estas tardando
 Juan: Voy!
   canPickupEmptyGlass = true;
   dAntonov.SetOptionState(2,eOptionOn);
+  dCabarra.SetOptionState(3,eOptionOn);
   }
 return
 
 
 @7
-Elena: Si, toma
+Elena: Venga, toma
   player.AddInventory(iTenEuroNote);
 Elena: A devolver eh
 Juan: La leche jodia
@@ -3127,23 +3229,23 @@ Antonov: Si, claro, con tanto "disparo" al final me duele la cabeza
 Juan: Me das una pastilla?
 Antonov: Favor por favor camarada, me he quedado sin balas
 Antonov: Te hago un trueque, una pastilla por una bala
-  if(player.HasInventory(iBullet)){
-Juan: Vale, aqui tienes
-  player.LoseInventory(iBullet);
-Antonov: Me encanta el olor a polvora
-Antonov: Aqui tienes tu pastilla, no te la comas toda de golpe
-  player.AddInventory(iIbuprofen);
-Juan: Gracias camarada
-Option-Off-Forever 2
-  }
-  else{
 Juan: No suelo llevar encima, pero te voy a conseguir una
 Juan: Todo por una noble causa
   dCabarra.SetOptionState(2,eOptionOn);
-  }
 return
 
 @3
+Antonov: Me encanta el olor a polvora
+  player.LoseInventory(iBullet);
+Antonov: Aqui tienes tu pastilla, no te la comas toda de golpe
+  player.AddInventory(iIbuprofen);
+  dCabarra.SetOptionState(3, eOptionOffForever);
+Juan: Gracias camarada
+Option-Off-Forever 2
+Option-Off-Forever 3
+return
+
+@4
 Antonov: Adios camarada
 stop
 ]]></Script>
@@ -3162,6 +3264,12 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
+                <Text xml:space="preserve">Te he conseguido una bala</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
                 <Text>Adios</Text>
                 <Show>True</Show>
                 <Say>True</Say>
@@ -3616,7 +3724,7 @@ stop
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>hasBeenInLivingRoom</Name>
+          <Name>hasTalkedToElenaFirstTime</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -3692,6 +3800,26 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>areBatteriesOutFromRemoteControl</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasCabarraDialogOptOnOne</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasCabarraDialogOptOnTwo</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasCabarraDialogOptOnThree</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasCabarraDialogOptOnFour</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -6514,7 +6642,7 @@ stop
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2021-02-02 00:18:54Z</FileLastModifiedDate>
@@ -6527,7 +6655,7 @@ stop
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2021-02-02 00:52:48Z</FileLastModifiedDate>
@@ -6540,7 +6668,7 @@ stop
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2021-02-06 02:29:46Z</FileLastModifiedDate>
@@ -6553,7 +6681,7 @@ stop
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2021-02-02 01:00:10Z</FileLastModifiedDate>
@@ -6566,7 +6694,7 @@ stop
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2021-02-08 13:11:55Z</FileLastModifiedDate>
