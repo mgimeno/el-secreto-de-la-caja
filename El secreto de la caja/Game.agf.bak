@@ -2702,7 +2702,7 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>8</SpeechAnimationDelay>
+            <SpeechAnimationDelay>7</SpeechAnimationDelay>
             <SpeechColor>1040</SpeechColor>
             <Solid>True</Solid>
             <Clickable>False</Clickable>
@@ -2742,7 +2742,7 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>8</SpeechAnimationDelay>
+            <SpeechAnimationDelay>7</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
@@ -2782,7 +2782,7 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>8</SpeechAnimationDelay>
+            <SpeechAnimationDelay>7</SpeechAnimationDelay>
             <SpeechColor>32784</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
@@ -2822,7 +2822,7 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>8</SpeechAnimationDelay>
+            <SpeechAnimationDelay>7</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
@@ -3123,7 +3123,7 @@ Juan: Cojonudo!
   }
   else{
 Elena: Pues no tengo mas que un billete de diez
-Juan: Joder
+Juan: Gustor
 Juan: Bueno, algo es algo, dejamelo y ya me las ingeniare
   }
   if(hasGivenIbuprofenToElena){
@@ -3159,6 +3159,14 @@ return
 @8
 Elena: Ciao
 stop
+@9
+return
+@10
+return
+@11
+return
+@12
+return
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -3206,6 +3214,30 @@ stop
               <DialogOption>
                 <ID>8</ID>
                 <Text xml:space="preserve">Hasta ahora</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>9</ID>
+                <Text>test1</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>10</ID>
+                <Text>test2</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>11</ID>
+                <Text>test3test</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>12</ID>
+                <Text>test4</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3719,11 +3751,6 @@ stop
     <GlobalVariables>
       <Variables>
         <GlobalVariable>
-          <Name>hasBeenOutsideHome</Name>
-          <Type>bool</Type>
-          <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
           <Name>hasTalkedToElenaFirstTime</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
@@ -3789,11 +3816,6 @@ stop
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>hasBeenInBedroom</Name>
-          <Type>bool</Type>
-          <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
           <Name>hasOpenedWallet</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
@@ -3820,6 +3842,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>wasCabarraDialogOptOnFour</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasTakenCoinFromSewer</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
