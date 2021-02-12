@@ -60,7 +60,7 @@
       <DialogScriptNarrateFunction IsNull="True" />
       <TextWindowGUI>0</TextWindowGUI>
       <AlwaysDisplayTextAsSpeech>False</AlwaysDisplayTextAsSpeech>
-      <AntiAliasFonts>True</AntiAliasFonts>
+      <AntiAliasFonts>False</AntiAliasFonts>
       <ThoughtGUI>0</ThoughtGUI>
       <BackwardsText>False</BackwardsText>
       <MaximumScore>0</MaximumScore>
@@ -2703,7 +2703,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>7</SpeechAnimationDelay>
-            <SpeechColor>1040</SpeechColor>
+            <SpeechColor>63488</SpeechColor>
             <Solid>True</Solid>
             <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2928,8 +2928,8 @@ return
 
 @5
 Cabarra: eh...
-Cabarra: eh.. es salsa de un Kebab que me ha traido mi novia rumanya
-Juan: Y donde esta la rumanya?
+Cabarra: eh.. es salsa de un Kebab que me ha traido mi novia rumana
+Juan: Y donde esta la rumana?
 Cabarra: eh...
 Cabarra: eh... no se, ha desaparecido
   wasCabarraDialogOptOnOne = dCabarra.GetOptionState(1);
@@ -3447,10 +3447,10 @@ stop
       </Font>
       <Font>
         <ID>1</ID>
-        <PointSize>50</PointSize>
+        <PointSize>48</PointSize>
         <Name>TumbleSpeech</Name>
         <OutlineFont>2</OutlineFont>
-        <OutlineStyle>Automatic</OutlineStyle>
+        <OutlineStyle>UseOutlineFont</OutlineStyle>
         <SourceFilename>C:\dev\github\el-secreto-de-la-caja\Assets\Fonts\ONESIZE_.TTF</SourceFilename>
         <SizeMultiplier>1</SizeMultiplier>
         <VerticalOffset>0</VerticalOffset>
@@ -3458,7 +3458,7 @@ stop
       </Font>
       <Font>
         <ID>2</ID>
-        <PointSize>50</PointSize>
+        <PointSize>48</PointSize>
         <Name>TumbleOutlineSpeech</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
