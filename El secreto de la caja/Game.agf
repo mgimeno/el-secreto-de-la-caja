@@ -2065,14 +2065,14 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>8454</TextColor>
+                <TextColor>48</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Si</Text>
                 <Height>50</Height>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <Width>120</Width>
                 <Left>830</Left>
                 <Top>540</Top>
@@ -2089,14 +2089,14 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>48</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>No</Text>
                 <Height>50</Height>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <Width>120</Width>
                 <Left>1060</Left>
                 <Top>540</Top>
@@ -2702,8 +2702,8 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>7</SpeechAnimationDelay>
-            <SpeechColor>63488</SpeechColor>
+            <SpeechAnimationDelay>6</SpeechAnimationDelay>
+            <SpeechColor>63519</SpeechColor>
             <Solid>True</Solid>
             <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2742,8 +2742,8 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>7</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechAnimationDelay>6</SpeechAnimationDelay>
+            <SpeechColor>63488</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2776,14 +2776,14 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>5</StartingRoom>
             <StartX>1541</StartX>
-            <StartY>712</StartY>
+            <StartY>713</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>7</SpeechAnimationDelay>
-            <SpeechColor>32784</SpeechColor>
+            <SpeechAnimationDelay>6</SpeechAnimationDelay>
+            <SpeechColor>2016</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2810,7 +2810,7 @@
             <ScriptName>cAntonov</ScriptName>
             <RealName>Antonov</RealName>
             <NormalView>6</NormalView>
-            <SpeechView>7</SpeechView>
+            <SpeechView>6</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
@@ -2823,7 +2823,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>7</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>63</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2862,7 +2862,7 @@
 return
 
 @1
-Cabarra: He pedido un credito para volver a abrir
+Cabarra: He pedido un prestamo para volver a abrir
 Juan: Brillante decision
 Cabarra: Le veo futuro a este negocio
 Juan: Claro que si
@@ -2928,7 +2928,7 @@ return
 
 @5
 Cabarra: eh...
-Cabarra: eh.. es salsa de un Kebab que me ha traido mi novia rumana
+Cabarra: eh.. es salsa de un Kebab que me ha traido mi exnovia rumana
 Juan: Y donde esta la rumana?
 Cabarra: eh...
 Cabarra: eh... no se, ha desaparecido
@@ -3159,14 +3159,6 @@ return
 @8
 Elena: Ciao
 stop
-@9
-return
-@10
-return
-@11
-return
-@12
-return
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -3217,30 +3209,6 @@ return
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
-              <DialogOption>
-                <ID>9</ID>
-                <Text>test1</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>10</ID>
-                <Text>test2</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>11</ID>
-                <Text>test3test</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>12</ID>
-                <Text>test4</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
             </DialogOptions>
           </Dialog>
           <Dialog>
@@ -3252,8 +3220,8 @@ return
 return
 
 @1
-Antonov: Proteger el Ayuntamiento de una posible invasion
-Juan: Cojonudo!
+Antonov: Proteger Carallana ante una mas que probable invasion francesa
+Juan: Me das las vida
 return
 
 @2
@@ -3751,7 +3719,7 @@ stop
     <GlobalVariables>
       <Variables>
         <GlobalVariable>
-          <Name>hasTalkedToElenaFirstTime</Name>
+          <Name>hasTriedToGoToBasement</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -3847,6 +3815,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>hasTakenCoinFromSewer</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasLookedAtMobileAfterPickingItUp</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
