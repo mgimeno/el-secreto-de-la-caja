@@ -15,7 +15,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
-      <TurnBeforeFacing>False</TurnBeforeFacing>
+      <TurnBeforeFacing>True</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
       <ScaleMovementSpeedWithMaskResolution>True</ScaleMovementSpeedWithMaskResolution>
       <SplitResources>0</SplitResources>
@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">El secreto de la caja</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>10</AudioIndexer>
+      <AudioIndexer>11</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -2876,7 +2876,7 @@ Cabarra: Pues justo he gastado hoy la ultima...
 Cabarra: Quiero decir, la he vendido
 Juan: No me jodas
 Cabarra: Que no, es broma ja ja como soy...
-Cabarra: Me quedan aun muchas
+Cabarra: Aun me queda alguna
 Juan: Cuanto por una?
 Cabarra: Un euro
   if(player.HasInventory(iTwoEuroCoin)){
@@ -3820,6 +3820,16 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>hasLookedAtMobileAfterPickingItUp</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasBeenInLivingRoom</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasSeenLever</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -6698,6 +6708,19 @@ stop
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2021-02-08 13:11:55Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>endingMusic</ScriptName>
+                <ID>5</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Creditos - Monkey Island - Lechuck.mid</SourceFileName>
+                <Index>11</Index>
+                <Type>2</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MIDI</FileType>
+                <DefaultVolume>45</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>False</DefaultRepeat>
+                <FileLastModifiedDate>1998-07-15 20:46:12Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
