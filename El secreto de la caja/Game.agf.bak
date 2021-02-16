@@ -2771,6 +2771,7 @@ Cabarra: eh... no se, ha desaparecido
   wasCabarraDialogOptOnTwo = dCabarra.GetOptionState(2);
   wasCabarraDialogOptOnThree = dCabarra.GetOptionState(3);
   wasCabarraDialogOptOnFour = dCabarra.GetOptionState(4);
+  dElena.SetOptionState(8,eOptionOn);
 Option-Off 1
 Option-Off 2
 Option-Off 3
@@ -2901,8 +2902,8 @@ Juan: Que?
 Elena: No se come en esta casa o que?
 Juan: Joder...
 Option-Off-Forever 2
-Option-On 3
-stop
+  hasAskedElenaAboutCharger = true;
+return
 
 @3
 Elena: Muy interesante eso que me cuentas 
@@ -2982,7 +2983,6 @@ Juan: Voy!
   }
 return
 
-
 @7
 Elena: Venga, toma
   player.AddInventory(iTenEuroNote);
@@ -2992,6 +2992,23 @@ Option-Off-Forever 7
 return
 
 @8
+Elena: Pero que dices?
+Juan: Ha ido a verle y luego ha desaparecido y hay unas manchas que parecen sangre en direccion al sotano
+Elena: No digas tontadas, seran manchas de tomate
+Juan: Ya...
+Option-Off-Forever 8
+return
+
+
+@9
+Elena: Ya le habras dado la tabarra al pobre chico
+Juan: Al reves, menuda chaquetica me ha metido hablando de Sokolov
+Elena: Como te gusta esa historia...
+Juan: Aceite de oliva
+Option-Off-Forever 9
+return
+
+@10
 Elena: Ciao
 stop
 ]]></Script>
@@ -3040,6 +3057,18 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>8</ID>
+                <Text xml:space="preserve">Creo que Castillo se ha cargado a su novia</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>9</ID>
+                <Text xml:space="preserve">Me he encontrado a Antonov en el Ayuntamiento</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>10</ID>
                 <Text xml:space="preserve">Hasta ahora</Text>
                 <Show>True</Show>
                 <Say>True</Say>
@@ -3099,6 +3128,7 @@ Juan: Mas malo que el Doctor Gang
   wasAntonovDialogOptOnOne = dAntonov.GetOptionState(1);
   wasAntonovDialogOptOnTwo = dAntonov.GetOptionState(2);
   wasAntonovDialogOptOnThree = dAntonov.GetOptionState(3);
+  dElena.SetOptionState(9,eOptionOn);
 Option-Off 1
 Option-Off 2
 Option-Off 3
@@ -3818,6 +3848,16 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>hasBeenInShop</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasAskedElenaAboutCharger</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasSecondQuestionAboutChargerBeenEnabled</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
