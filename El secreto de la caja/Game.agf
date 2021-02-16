@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">El secreto de la caja</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>11</AudioIndexer>
+      <AudioIndexer>19</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -1020,9 +1020,9 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
-              <Height>200</Height>
-              <Width>320</Width>
+              <OnClick>gOptions_OnClick</OnClick>
+              <Height>1080</Height>
+              <Width>1920</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1033,7 +1033,7 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>97</BackgroundImage>
+              <BackgroundImage>32</BackgroundImage>
               <ID>1</ID>
               <Name>gOptions</Name>
             </NormalGUI>
@@ -1043,11 +1043,11 @@
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
                 <Text>Options</Text>
-                <Height>11</Height>
+                <Height>63</Height>
                 <Locked>False</Locked>
-                <Width>135</Width>
-                <Left>53</Left>
-                <Top>31</Top>
+                <Width>495</Width>
+                <Left>1120</Left>
+                <Top>335</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblOptions</Name>
@@ -1063,41 +1063,17 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
-                <Text>Default</Text>
-                <Height>14</Height>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Save</Text>
+                <Height>58</Height>
                 <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>202</Left>
-                <Top>48</Top>
+                <Width>200</Width>
+                <Left>1268</Left>
+                <Top>420</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
-                <Name>btnOptionsDefault</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnOptions_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>8454</TextColor>
-                <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
-                <Text>Save</Text>
-                <Height>14</Height>
-                <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>202</Left>
-                <Top>69</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
                 <Name>btnOptionsSave</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1111,17 +1087,17 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text>Load</Text>
-                <Height>14</Height>
+                <Height>58</Height>
                 <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>202</Left>
-                <Top>86</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
+                <Width>200</Width>
+                <Left>1268</Left>
+                <Top>520</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
                 <Name>btnOptionsLoad</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1135,17 +1111,17 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text>Quit</Text>
-                <Height>14</Height>
+                <Height>58</Height>
                 <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>202</Left>
-                <Top>122</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
+                <Width>200</Width>
+                <Left>1268</Left>
+                <Top>620</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
                 <Name>btnOptionsQuit</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1159,17 +1135,17 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text>Resume</Text>
-                <Height>14</Height>
+                <Height>58</Height>
                 <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>202</Left>
-                <Top>141</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
+                <Width>200</Width>
+                <Left>1268</Left>
+                <Top>720</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
                 <Name>btnOptionsResume</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1180,13 +1156,13 @@
                 <TextColor>33776</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Music Volume</Text>
-                <Height>10</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>132</Width>
-                <Left>57</Left>
-                <Top>55</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
+                <Width>686</Width>
+                <Left>401</Left>
+                <Top>335</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
                 <Name>lblOptionsMusic</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1200,13 +1176,13 @@
                 <MinValue>0</MinValue>
                 <MaxValue>100</MaxValue>
                 <Value>80</Value>
-                <Height>12</Height>
+                <Height>62</Height>
                 <Locked>False</Locked>
-                <Width>120</Width>
-                <Left>60</Left>
-                <Top>69</Top>
-                <ZOrder>7</ZOrder>
-                <ID>7</ID>
+                <Width>403</Width>
+                <Left>544</Left>
+                <Top>420</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
                 <Name>sldOptionsMusic</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1217,13 +1193,13 @@
                 <TextColor>33776</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Sound Effects Volume</Text>
-                <Height>11</Height>
+                <Height>53</Height>
                 <Locked>False</Locked>
-                <Width>130</Width>
-                <Left>57</Left>
-                <Top>86</Top>
-                <ZOrder>8</ZOrder>
-                <ID>8</ID>
+                <Width>684</Width>
+                <Left>401</Left>
+                <Top>538</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
                 <Name>lblOptionsSound</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1237,120 +1213,25 @@
                 <MinValue>0</MinValue>
                 <MaxValue>100</MaxValue>
                 <Value>90</Value>
-                <Height>13</Height>
+                <Height>62</Height>
                 <Locked>False</Locked>
-                <Width>120</Width>
-                <Left>60</Left>
-                <Top>100</Top>
-                <ZOrder>9</ZOrder>
-                <ID>9</ID>
+                <Width>403</Width>
+                <Left>544</Left>
+                <Top>624</Top>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
                 <Name>sldOptionsSound</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUISlider>
-              <GUILabel>
-                <TextAlignment>Center</TextAlignment>
-                <TextColor>33776</TextColor>
-                <Font>0</Font>
-                <Text>Layout</Text>
-                <Height>12</Height>
-                <Locked>False</Locked>
-                <Width>127</Width>
-                <Left>57</Left>
-                <Top>116</Top>
-                <ZOrder>10</ZOrder>
-                <ID>10</ID>
-                <Name>lblOptionsStyle</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUISlider>
-                <OnChange>btnOptions_OnSliderChange</OnChange>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <BackgroundImage>0</BackgroundImage>
-                <MinValue>0</MinValue>
-                <MaxValue>1</MaxValue>
-                <Value>1</Value>
-                <Height>14</Height>
-                <Locked>False</Locked>
-                <Width>50</Width>
-                <Left>95</Left>
-                <Top>128</Top>
-                <ZOrder>11</ZOrder>
-                <ID>11</ID>
-                <Name>sldOptionsStyle</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUISlider>
-              <GUIButton>
-                <OnClick>btnOptions_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>88</PushedImage>
-                <MouseoverImage>87</MouseoverImage>
-                <Image>86</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>8</Height>
-                <Locked>False</Locked>
-                <Width>8</Width>
-                <Left>273</Left>
-                <Top>31</Top>
-                <ZOrder>12</ZOrder>
-                <ID>12</ID>
-                <Name>btnOptionsClose</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUILabel>
-                <TextAlignment>Right</TextAlignment>
-                <TextColor>33808</TextColor>
-                <Font>3</Font>
-                <Text>Classic</Text>
-                <Height>12</Height>
-                <Locked>False</Locked>
-                <Width>38</Width>
-                <Left>55</Left>
-                <Top>132</Top>
-                <ZOrder>13</ZOrder>
-                <ID>13</ID>
-                <Name>lblOptionsGuiClassic</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>33808</TextColor>
-                <Font>3</Font>
-                <Text>Modern</Text>
-                <Height>9</Height>
-                <Locked>False</Locked>
-                <Width>38</Width>
-                <Left>148</Left>
-                <Top>132</Top>
-                <ZOrder>14</ZOrder>
-                <ID>14</ID>
-                <Name>lblOptionsGuiModern</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
-              <Height>200</Height>
-              <Width>320</Width>
+              <OnClick>gSave_OnClick</OnClick>
+              <Height>1080</Height>
+              <Width>1920</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1360,8 +1241,8 @@
               <ZOrder>0</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>80</BackgroundImage>
+              <BackgroundColor>40</BackgroundColor>
+              <BackgroundImage>30</BackgroundImage>
               <ID>2</ID>
               <Name>gSave</Name>
             </NormalGUI>
@@ -1371,11 +1252,11 @@
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
                 <Text>Save</Text>
-                <Height>10</Height>
+                <Height>44</Height>
                 <Locked>False</Locked>
-                <Width>228</Width>
-                <Left>45</Left>
-                <Top>5</Top>
+                <Width>1220</Width>
+                <Left>362</Left>
+                <Top>39</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblSave</Name>
@@ -1393,13 +1274,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>42</Height>
+                <Height>302</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>50</Left>
-                <Top>21</Top>
+                <Width>432</Width>
+                <Left>362</Left>
+                <Top>115</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnSaveSlot1</Name>
@@ -1417,13 +1298,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>302</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>127</Left>
-                <Top>21</Top>
+                <Width>432</Width>
+                <Left>776</Left>
+                <Top>115</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnSaveSlot2</Name>
@@ -1441,13 +1322,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>302</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>204</Left>
-                <Top>21</Top>
+                <Width>432</Width>
+                <Left>1196</Left>
+                <Top>115</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnSaveSlot3</Name>
@@ -1465,13 +1346,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>50</Left>
-                <Top>76</Top>
+                <Width>384</Width>
+                <Left>362</Left>
+                <Top>410</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnSaveSlot4</Name>
@@ -1489,13 +1370,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>127</Left>
-                <Top>76</Top>
+                <Width>384</Width>
+                <Left>776</Left>
+                <Top>410</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnSaveSlot5</Name>
@@ -1513,13 +1394,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>204</Left>
-                <Top>76</Top>
+                <Width>384</Width>
+                <Left>1196</Left>
+                <Top>410</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>btnSaveSlot6</Name>
@@ -1537,13 +1418,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>50</Left>
-                <Top>132</Top>
+                <Width>384</Width>
+                <Left>362</Left>
+                <Top>715</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>btnSaveSlot7</Name>
@@ -1561,13 +1442,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>127</Left>
-                <Top>132</Top>
+                <Width>384</Width>
+                <Left>776</Left>
+                <Top>715</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
                 <Name>btnSaveSlot8</Name>
@@ -1585,13 +1466,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>204</Left>
-                <Top>132</Top>
+                <Width>384</Width>
+                <Left>1196</Left>
+                <Top>715</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
                 <Name>btnSaveSlot9</Name>
@@ -1607,42 +1488,18 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text>Cancel</Text>
-                <Height>14</Height>
+                <Height>58</Height>
                 <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>122</Left>
-                <Top>182</Top>
+                <Width>256</Width>
+                <Left>843</Left>
+                <Top>987</Top>
                 <ZOrder>10</ZOrder>
                 <ID>10</ID>
                 <Name>btnSaveCancel</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnOptions_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>88</PushedImage>
-                <MouseoverImage>87</MouseoverImage>
-                <Image>86</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>8</Height>
-                <Locked>False</Locked>
-                <Width>8</Width>
-                <Left>272</Left>
-                <Top>5</Top>
-                <ZOrder>11</ZOrder>
-                <ID>11</ID>
-                <Name>btnSaveClose</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
@@ -1652,8 +1509,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>200</Height>
-              <Width>320</Width>
+              <Height>1080</Height>
+              <Width>1920</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1677,13 +1534,13 @@
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>90</PushedImage>
-                <MouseoverImage>89</MouseoverImage>
-                <Image>54</Image>
+                <PushedImage>33</PushedImage>
+                <MouseoverImage>33</MouseoverImage>
+                <Image>33</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>14</Width>
+                <Width>64</Width>
                 <Left>0</Left>
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
@@ -1701,15 +1558,15 @@
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>93</PushedImage>
-                <MouseoverImage>92</MouseoverImage>
-                <Image>91</Image>
+                <PushedImage>34</PushedImage>
+                <MouseoverImage>34</MouseoverImage>
+                <Image>34</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>14</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>14</Width>
+                <Width>64</Width>
                 <Left>0</Left>
-                <Top>12</Top>
+                <Top>74</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnSaveNo</Name>
@@ -1722,8 +1579,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>200</Height>
-              <Width>320</Width>
+              <Height>1080</Height>
+              <Width>1920</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1734,7 +1591,7 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>80</BackgroundImage>
+              <BackgroundImage>30</BackgroundImage>
               <ID>4</ID>
               <Name>gLoad</Name>
             </NormalGUI>
@@ -1744,11 +1601,11 @@
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
                 <Text>Load</Text>
-                <Height>10</Height>
+                <Height>47</Height>
                 <Locked>False</Locked>
-                <Width>228</Width>
-                <Left>45</Left>
-                <Top>5</Top>
+                <Width>1203</Width>
+                <Left>371</Left>
+                <Top>36</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblLoad</Name>
@@ -1766,13 +1623,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>302</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>50</Left>
-                <Top>21</Top>
+                <Width>432</Width>
+                <Left>362</Left>
+                <Top>115</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnLoadSlot1</Name>
@@ -1790,13 +1647,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>127</Left>
-                <Top>21</Top>
+                <Width>384</Width>
+                <Left>776</Left>
+                <Top>115</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnLoadSlot2</Name>
@@ -1814,13 +1671,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>204</Left>
-                <Top>21</Top>
+                <Width>384</Width>
+                <Left>1196</Left>
+                <Top>115</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnLoadSlot3</Name>
@@ -1838,13 +1695,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>50</Left>
-                <Top>76</Top>
+                <Width>384</Width>
+                <Left>362</Left>
+                <Top>410</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnLoadSlot4</Name>
@@ -1862,13 +1719,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>127</Left>
-                <Top>76</Top>
+                <Width>384</Width>
+                <Left>776</Left>
+                <Top>410</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnLoadSlot5</Name>
@@ -1886,13 +1743,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>204</Left>
-                <Top>76</Top>
+                <Width>384</Width>
+                <Left>1196</Left>
+                <Top>410</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>btnLoadSlot6</Name>
@@ -1910,13 +1767,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>50</Left>
-                <Top>132</Top>
+                <Width>384</Width>
+                <Left>362</Left>
+                <Top>715</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>btnLoadSlot7</Name>
@@ -1934,13 +1791,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>127</Left>
-                <Top>132</Top>
+                <Width>384</Width>
+                <Left>776</Left>
+                <Top>715</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
                 <Name>btnLoadSlot8</Name>
@@ -1958,13 +1815,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>81</Image>
+                <Image>29</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>49</Height>
+                <Height>266</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>204</Left>
-                <Top>132</Top>
+                <Width>384</Width>
+                <Left>1196</Left>
+                <Top>715</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
                 <Name>btnLoadSlot9</Name>
@@ -1980,42 +1837,18 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
-                <PushedImage>83</PushedImage>
-                <MouseoverImage>98</MouseoverImage>
-                <Image>82</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text>Cancel</Text>
-                <Height>14</Height>
+                <Height>58</Height>
                 <Locked>False</Locked>
-                <Width>79</Width>
-                <Left>122</Left>
-                <Top>182</Top>
+                <Width>256</Width>
+                <Left>843</Left>
+                <Top>987</Top>
                 <ZOrder>10</ZOrder>
                 <ID>10</ID>
                 <Name>btnLoadCancel</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnOptions_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>88</PushedImage>
-                <MouseoverImage>87</MouseoverImage>
-                <Image>86</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>8</Height>
-                <Locked>False</Locked>
-                <Width>8</Width>
-                <Left>272</Left>
-                <Top>5</Top>
-                <ZOrder>11</ZOrder>
-                <ID>11</ID>
-                <Name>btnLoadClose</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
@@ -2065,7 +1898,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>48</TextColor>
+                <TextColor>14830</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -2112,8 +1945,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>200</Height>
-              <Width>320</Width>
+              <Height>1080</Height>
+              <Width>1920</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -2124,7 +1957,7 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>99</BackgroundImage>
+              <BackgroundImage>0</BackgroundImage>
               <ID>6</ID>
               <Name>gPause</Name>
             </NormalGUI>
@@ -2134,11 +1967,11 @@
                 <TextColor>8454</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Game Paused</Text>
-                <Height>11</Height>
+                <Height>60</Height>
                 <Locked>False</Locked>
-                <Width>236</Width>
-                <Left>46</Left>
-                <Top>61</Top>
+                <Width>899</Width>
+                <Left>384</Left>
+                <Top>264</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblPauseHeadline</Name>
@@ -2151,11 +1984,11 @@
                 <TextColor>52895</TextColor>
                 <Font>1</Font>
                 <Text xml:space="preserve">Press &lt;SPACE&gt; to continue</Text>
-                <Height>20</Height>
+                <Height>59</Height>
                 <Locked>False</Locked>
-                <Width>236</Width>
-                <Left>46</Left>
-                <Top>98</Top>
+                <Width>957</Width>
+                <Left>363</Left>
+                <Top>443</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>lblPauseMessage</Name>
@@ -2691,7 +2524,7 @@
             <RealName>Juan</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
+            <IdleView>8</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>6</StartingRoom>
@@ -2815,7 +2648,7 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>3</StartingRoom>
-            <StartX>189</StartX>
+            <StartX>226</StartX>
             <StartY>887</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
@@ -2930,8 +2763,8 @@ return
 
 @5
 Cabarra: eh...
-Cabarra: eh.. es salsa de un Kebab que me ha traido mi exnovia rumana
-Juan: Y donde esta la rumana?
+Cabarra: eh.. es salsa de un Kebab que me ha traido mi novia rumana
+Juan: Y donde esta ella?
 Cabarra: eh...
 Cabarra: eh... no se, ha desaparecido
   wasCabarraDialogOptOnOne = dCabarra.GetOptionState(1);
@@ -3177,7 +3010,7 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">En serio, no encuentro mi cargador</Text>
+                <Text xml:space="preserve">De verdad, no encuentro el cargador por ningun sitio</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3247,7 +3080,73 @@ Option-Off-Forever 2
 Option-Off-Forever 3
 return
 
+
 @4
+Antonov: El gran Oleg Sokolov
+Antonov: Lo conoci en la representacion de la invasion francesa en Zaragoza
+Antonov: Historiador ruso, profesor en la prestigiosa Sorbona de París
+Antonov: Poseedor de la Legion de Honor de Francia
+Antonov: Miembro del Consejo Cientifico del Instituto de Ciencias Sociales, Economicas y Politicas en Francia
+Antonov: Docente en el departamento de historia moderna en la facultad de historia en la universidad estatal de San Petersburgo
+Antonov: Considerado como uno de los grandes expertos en Napoleon de todo el mundo
+Juan: Un hombre culto y leido 
+Antonov: Se ve que dio un paso de fantasia y se cayo al rio en San Petersburgo
+Antonov: Lo encontraron borracho, con hipotermia y con una mochila donde estaban los dos brazos amputados de su novia
+Juan: Vaya girito de guion
+Antonov: Parece ser que en su piso encontraron a la joven Anastasia con cuatro disparos y decapitada
+Juan: Joder Sokolov...
+Juan: Mas malo que el Doctor Gang
+  wasAntonovDialogOptOnOne = dAntonov.GetOptionState(1);
+  wasAntonovDialogOptOnTwo = dAntonov.GetOptionState(2);
+  wasAntonovDialogOptOnThree = dAntonov.GetOptionState(3);
+Option-Off 1
+Option-Off 2
+Option-Off 3
+Option-Off-Forever 4
+Option-On 5
+Option-On 6
+Option-Off 7
+return
+
+@5
+Antonov: En Zaragoza se vistio de Mariscal dos veces
+Antonov: y lidero a las tropas invasoras en la plaza de los Sitios, el paseo de la Independencia, la Aljaferia y la plaza del Pilar
+Antonov: Lo que pasa que la liaba mucho
+Antonov: Una vez disparo los canyones dos veces seguidas y revento los cristales de la pasteleria "Bombonera Oro"
+Juan: Es que ahi, la podiais liar mucho eh
+Antonov: Buah, ibamos hasta el culo de polvora
+Juan: jajaja
+  if(wasAntonovDialogOptOnOne){
+Option-On 1  
+  }
+  if(wasAntonovDialogOptOnTwo){
+Option-On 2 
+  }
+  if(wasAntonovDialogOptOnThree){
+Option-On 3  
+  }
+Option-Off-Forever 5
+Option-Off-Forever 6
+Option-On 7
+return
+
+@6
+Antonov: Como quieras
+  if(wasAntonovDialogOptOnOne){
+Option-On 1  
+  }
+  if(wasAntonovDialogOptOnTwo){
+Option-On 2 
+  }
+  if(wasAntonovDialogOptOnThree){
+Option-On 3  
+  }
+Option-On 5
+Option-Off-Forever 6
+Option-On 7
+return
+
+@7
 Antonov: Adios camarada
 stop
 ]]></Script>
@@ -3272,9 +3171,71 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
+                <Text xml:space="preserve">Cuentame sobre Sokolov</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Text xml:space="preserve">Cuentame mas sobre Sokolov</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>6</ID>
+                <Text xml:space="preserve">Cambiemos de tema</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>7</ID>
                 <Text>Adios</Text>
                 <Show>True</Show>
                 <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>cCabarraFirstTime</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+
+@1
+Juan: Cabarraaaaaaaaa!
+Cabarra: Hola Juan
+stop
+
+@2
+Juan: Cabarraaaaaaaaa!
+Cabarra: Hola Juan
+stop
+
+@3
+Juan: Cabarraaaaaaaaa!
+Cabarra: Hola Juan
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text>Hola!</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Parece  la tienda de Pulp Fiction</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text>Castillo!</Text>
+                <Show>True</Show>
+                <Say>False</Say>
               </DialogOption>
             </DialogOptions>
           </Dialog>
@@ -3840,32 +3801,275 @@ stop
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasAntonovDialogOptOnOne</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasAntonovDialogOptOnTwo</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>wasAntonovDialogOptOnThree</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hasBeenInShop</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
         <SubFolders>
-          <SpriteFolder Name="characters">
+          <SpriteFolder Name="Characters">
             <SubFolders>
               <SpriteFolder Name="Juan">
-                <SubFolders />
-                <Sprites>
-                  <Sprite Slot="119" Width="200" Height="471" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan-transparente.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>471</ImportHeight>
-                      <ImportWidth>200</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                </Sprites>
+                <SubFolders>
+                  <SpriteFolder Name="Talk">
+                    <SubFolders />
+                    <Sprites />
+                  </SpriteFolder>
+                  <SpriteFolder Name="Still">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="41" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente reposo.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>549</ImportHeight>
+                          <ImportWidth>294</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="42" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas reposo.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>549</ImportHeight>
+                          <ImportWidth>294</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Walk">
+                    <SubFolders>
+                      <SpriteFolder Name="Side">
+                        <SubFolders />
+                        <Sprites />
+                      </SpriteFolder>
+                      <SpriteFolder Name="Up">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="43" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas 1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="44" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas 2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="45" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas 3.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="46" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas 4.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="47" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas 5.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="48" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\back\espaldas 6.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                      <SpriteFolder Name="Down">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="35" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente 1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="36" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente 2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="37" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente 3.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="38" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente 4.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="39" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente 5.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="40" Width="294" Height="549" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\juan\front\frente 6.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>549</ImportHeight>
+                              <ImportWidth>294</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                    </SubFolders>
+                    <Sprites />
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
               </SpriteFolder>
               <SpriteFolder Name="Cabarra">
                 <SubFolders>
@@ -3979,7 +4183,7 @@ stop
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="Stay">
+                  <SpriteFolder Name="Still">
                     <SubFolders />
                     <Sprites>
                       <Sprite Slot="13" Width="170" Height="351" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -4144,7 +4348,7 @@ stop
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="Stay">
+                  <SpriteFolder Name="Still">
                     <SubFolders />
                     <Sprites>
                       <Sprite Slot="1" Width="279" Height="314" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -4207,13 +4411,13 @@ stop
                   <SpriteFolder Name="Talk">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="22" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="22" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito boca 1 pestañeo.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-boca-1.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4222,13 +4426,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="23" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="23" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito boca 1.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-boca-1-pestaneo.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4237,13 +4441,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="24" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="24" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito boca 2 pestañeo.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-boca-2.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4252,13 +4456,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="25" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="25" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito boca 2.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-boca-2-pestaneo.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4267,13 +4471,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="26" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="26" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito boca 3 pestañeo.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-boca-3.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4282,13 +4486,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="27" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="27" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito boca 3.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-boca-3-pestaneo.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4297,13 +4501,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="28" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="28" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito reposo pestañeo.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-reposo.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4314,16 +4518,16 @@ stop
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="Stay">
+                  <SpriteFolder Name="Still">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="21" Width="308" Height="508" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="21" Width="218" Height="360" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo incognito reposo.png</FileName>
+                          <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\plaza\Tipo-incognito-reposo.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>508</ImportHeight>
-                          <ImportWidth>308</ImportWidth>
+                          <ImportHeight>360</ImportHeight>
+                          <ImportWidth>218</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4342,327 +4546,7 @@ stop
           </SpriteFolder>
           <SpriteFolder Name="GUI">
             <SubFolders>
-              <SpriteFolder Name="Options">
-                <SubFolders />
-                <Sprites>
-                  <Sprite Slot="80" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>assets/gui/save_background.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="81" Width="70" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>assets/gui/save_slot.gif</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>49</ImportHeight>
-                      <ImportWidth>70</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="82" Width="79" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>79</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="83" Width="79" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>79</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="84" Width="49" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>49</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="85" Width="49" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>49</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="86" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>8</ImportHeight>
-                      <ImportWidth>8</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="87" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>8</ImportHeight>
-                      <ImportWidth>8</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="88" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>8</ImportHeight>
-                      <ImportWidth>8</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="95" Width="20" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>assets/gui/option_button.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>19</ImportHeight>
-                      <ImportWidth>20</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="96" Width="70" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>assets/gui/save_slot_hi.gif</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>49</ImportHeight>
-                      <ImportWidth>70</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="97" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>assets/gui/options_background.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="98" Width="79" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>assets/gui/button_longl_hi.gif</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>79</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="99" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>assets/gui/message_background.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="100" Width="49" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>assets/gui/button_small_hi.gif</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>49</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="54" Width="14" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>13</ImportHeight>
-                      <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="89" Width="14" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>13</ImportHeight>
-                      <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="90" Width="14" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>13</ImportHeight>
-                      <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="91" Width="14" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="92" Width="14" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="93" Width="14" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName />
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                </Sprites>
-              </SpriteFolder>
-              <SpriteFolder Name="scumm-bar">
+              <SpriteFolder Name="ScummBar">
                 <SubFolders />
                 <Sprites>
                   <Sprite Slot="120" Width="37" Height="74" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5012,101 +4896,105 @@ stop
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="Options">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="29" Width="384" Height="266" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\save-gui\slot.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>266</ImportHeight>
+                      <ImportWidth>384</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="30" Width="1920" Height="1080" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\save-gui\background.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>1080</ImportHeight>
+                      <ImportWidth>1920</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="31" Width="384" Height="266" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\save-gui\slot-hl.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>266</ImportHeight>
+                      <ImportWidth>384</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="32" Width="1920" Height="1080" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\save-gui\options.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>1080</ImportHeight>
+                      <ImportWidth>1920</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="33" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\save-gui\check.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>64</ImportHeight>
+                      <ImportWidth>64</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="34" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\save-gui\cancel.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>64</ImportHeight>
+                      <ImportWidth>64</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
-            <Sprites>
-              <Sprite Slot="52" Width="12" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>assets/gui/arrow_up_off.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>19</ImportHeight>
-                  <ImportWidth>12</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="53" Width="12" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>assets/gui/arrow_down_off.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>19</ImportHeight>
-                  <ImportWidth>12</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="55" Width="12" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName />
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>20</ImportHeight>
-                  <ImportWidth>12</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="56" Width="12" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName />
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>20</ImportHeight>
-                  <ImportWidth>12</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="57" Width="12" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName />
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>20</ImportHeight>
-                  <ImportWidth>12</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="58" Width="12" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName />
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>20</ImportHeight>
-                  <ImportWidth>12</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-            </Sprites>
+            <Sprites />
           </SpriteFolder>
-          <SpriteFolder Name="inventory">
+          <SpriteFolder Name="Inventory">
             <SubFolders />
             <Sprites>
               <Sprite Slot="62" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5396,9 +5284,9 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
-          <SpriteFolder Name="rooms">
+          <SpriteFolder Name="Rooms">
             <SubFolders>
-              <SpriteFolder Name="bedroom">
+              <SpriteFolder Name="Bedroom">
                 <SubFolders />
                 <Sprites>
                   <Sprite Slot="59" Width="70" Height="58" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5538,7 +5426,7 @@ stop
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
-              <SpriteFolder Name="shop">
+              <SpriteFolder Name="Shop">
                 <SubFolders />
                 <Sprites>
                   <Sprite Slot="108" Width="124" Height="579" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5548,51 +5436,6 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>579</ImportHeight>
                       <ImportWidth>124</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="109" Width="79" Height="41" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\tienda\boca1.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>41</ImportHeight>
-                      <ImportWidth>79</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="110" Width="78" Height="39" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\tienda\boca2.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>39</ImportHeight>
-                      <ImportWidth>78</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="111" Width="80" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\tienda\boca3.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
-                      <ImportWidth>80</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5633,7 +5476,7 @@ stop
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
-              <SpriteFolder Name="living-room">
+              <SpriteFolder Name="LivingRoom">
                 <SubFolders />
                 <Sprites>
                   <Sprite Slot="114" Width="178" Height="385" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5743,7 +5586,7 @@ stop
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
-              <SpriteFolder Name="town-hall">
+              <SpriteFolder Name="TownHall">
                 <SubFolders />
                 <Sprites>
                   <Sprite Slot="51" Width="114" Height="87" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5785,26 +5628,11 @@ stop
           </Sprite>
           <Sprite Slot="77" Width="50" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
             <Source>
-              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\punteros\puntero-azul-small.png</FileName>
+              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\punteros\puntero-morado-sombra-small.png</FileName>
               <OffsetX>0</OffsetX>
               <OffsetY>0</OffsetY>
               <ImportHeight>50</ImportHeight>
               <ImportWidth>50</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="138" Width="1" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\empty-transparent.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>1</ImportHeight>
-              <ImportWidth>1</ImportWidth>
               <ImportAsTile>False</ImportAsTile>
               <Frame>0</Frame>
               <RemapToGamePalette>False</RemapToGamePalette>
@@ -5830,7 +5658,42 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>119</Image>
+                    <Image>35</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>36</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>37</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>38</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>39</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>40</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -5843,7 +5706,42 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>119</Image>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>41</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -5856,7 +5754,42 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>119</Image>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>41</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -5869,7 +5802,42 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>119</Image>
+                    <Image>43</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>44</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>45</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>46</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>47</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>48</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -6484,6 +6452,64 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>8</ID>
+            <Name>vJuan_Stay</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -6740,7 +6766,86 @@ stop
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aOpenCloseCloset</ScriptName>
+                <ID>6</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\open-close-closet.mp3</SourceFileName>
+                <Index>13</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>50</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-02-15 16:31:16Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aOpenCloseDoor</ScriptName>
+                <ID>7</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\open-close-door.mp3</SourceFileName>
+                <Index>14</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>50</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-02-15 16:04:24Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aLockUnlock</ScriptName>
+                <ID>8</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\lock-unlock.mp3</SourceFileName>
+                <Index>15</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>40</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-02-15 16:03:58Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aLeverOnSewer</ScriptName>
+                <ID>9</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\lever-on-sewer.mp3</SourceFileName>
+                <Index>16</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>75</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-02-15 16:30:48Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aPushPullMirror</ScriptName>
+                <ID>10</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\push-pull-mirror.mp3</SourceFileName>
+                <Index>17</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>50</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-02-15 17:18:34Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aShopOpenCloseDoor</ScriptName>
+                <ID>11</ID>
+                <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\shop-open-close-door.mp3</SourceFileName>
+                <Index>19</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>40</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-02-15 15:56:07Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
