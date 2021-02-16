@@ -2897,13 +2897,15 @@ return
 @2
 Elena: Tu sabras, adicto al movil, busca por ahi
 Juan: Vale
+  player.FaceDirection(eDirectionUp);
 Elena: Espera, una cosa...
+  player.FaceDirection(eDirectionRight);
 Juan: Que?
 Elena: No se come en esta casa o que?
 Juan: Joder...
 Option-Off-Forever 2
   hasAskedElenaAboutCharger = true;
-return
+stop
 
 @3
 Elena: Muy interesante eso que me cuentas 
@@ -2917,12 +2919,14 @@ Juan: Cojonudo!
 Elena: Si tan importante es, puedes comprar uno nuevo en el Badulaque
 Juan: Buena idea!
 Juan: Voy para alla!
+  player.FaceDirection(eDirectionUp);
 Elena: Espera, una cosa...
+  player.FaceDirection(eDirectionRight);
 Juan: Que?
 Elena: Mas viejo que las puertas eres
 Juan: Cabron
   hasNeedToGoOutFromHome = true;
-return
+stop
 
 @4
 Elena: Si, la tengo yo
@@ -2930,7 +2934,7 @@ Juan: Anda dejamela que la necesito
 Elena: Anda, arregla el reloj de la pared que se ha parado y te las doy
 Juan: Voy!
   hasNeedToFixClock = true;
-return
+stop
 
 
 @5
@@ -2981,7 +2985,7 @@ Juan: Voy!
   dAntonov.SetOptionState(2,eOptionOn);
   dCabarra.SetOptionState(3,eOptionOn);
   }
-return
+stop
 
 @7
 Elena: Venga, toma
@@ -3108,7 +3112,7 @@ Antonov: Aqui tienes tu pastilla, no te la comas toda de golpe
 Juan: Gracias camarada
 Option-Off-Forever 2
 Option-Off-Forever 3
-return
+stop
 
 
 @4
