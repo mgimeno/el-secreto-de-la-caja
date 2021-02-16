@@ -17,7 +17,7 @@
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
       <TurnBeforeFacing>True</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
-      <ScaleMovementSpeedWithMaskResolution>True</ScaleMovementSpeedWithMaskResolution>
+      <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
       <SplitResources>0</SplitResources>
       <LetterboxMode>False</LetterboxMode>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
@@ -32,7 +32,7 @@
       <InventoryHotspotMarkerCrosshairColor>0</InventoryHotspotMarkerCrosshairColor>
       <WalkInLookMode>False</WalkInLookMode>
       <AntiGlideMode>True</AntiGlideMode>
-      <DebugMode>True</DebugMode>
+      <DebugMode>False</DebugMode>
       <InventoryCursors>False</InventoryCursors>
       <HandleInvClicksInScript>True</HandleInvClicksInScript>
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
@@ -67,7 +67,7 @@
       <HasMODMusic>False</HasMODMusic>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
       <GameExplorerEnabled>False</GameExplorerEnabled>
-      <Description />
+      <Description xml:space="preserve">Aventura grafica para Juan y Elena</Description>
       <ReleaseDate>2021-02-19</ReleaseDate>
       <Genre>Adventure</Genre>
       <Version>1.0.0.0</Version>
@@ -89,18 +89,18 @@
       <GameScaling>MaxInteger</GameScaling>
       <GameScalingMultiplier>1</GameScalingMultiplier>
       <GraphicsFilter>stdscale</GraphicsFilter>
-      <VSync>False</VSync>
+      <VSync>True</VSync>
       <AAScaledSprites>False</AAScaledSprites>
       <DowngradeTo16bit>False</DowngradeTo16bit>
       <RenderAtScreenResolution>False</RenderAtScreenResolution>
       <DigitalSound>Default</DigitalSound>
       <MidiSound>Default</MidiSound>
-      <UseVoicePack>True</UseVoicePack>
+      <UseVoicePack>False</UseVoicePack>
       <ThreadedAudio>True</ThreadedAudio>
       <Translation />
       <AutoLockMouse>False</AutoLockMouse>
-      <MouseSpeed>1</MouseSpeed>
-      <SpriteCacheSize>128</SpriteCacheSize>
+      <MouseSpeed>2</MouseSpeed>
+      <SpriteCacheSize>256</SpriteCacheSize>
       <UseCustomSavePath>False</UseCustomSavePath>
       <CustomSavePath />
       <UseCustomAppDataPath>False</UseCustomAppDataPath>
@@ -2531,7 +2531,7 @@
             <StartX>1000</StartX>
             <StartY>775</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>50</MovementSpeed>
+            <MovementSpeed>55</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
@@ -2540,7 +2540,7 @@
             <Solid>True</Solid>
             <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaLighting>False</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <DiagonalLoops>True</DiagonalLoops>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
@@ -2580,7 +2580,7 @@
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaLighting>False</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <DiagonalLoops>True</DiagonalLoops>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
@@ -2620,7 +2620,7 @@
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaLighting>False</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <DiagonalLoops>True</DiagonalLoops>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
@@ -2660,7 +2660,7 @@
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaLighting>False</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <DiagonalLoops>True</DiagonalLoops>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
