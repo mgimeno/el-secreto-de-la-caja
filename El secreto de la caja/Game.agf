@@ -2927,7 +2927,7 @@ return
 @4
 Elena: Si, la tengo yo
 Juan: Anda dejamela que la necesito
-Elena: Anda, arregla primero el reloj de la pared que se ha parado y te las doy
+Elena: Anda, arregla el reloj de la pared que se ha parado y te las doy
 Juan: Voy!
   hasNeedToFixClock = true;
 return
@@ -3051,7 +3051,7 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>7</ID>
-                <Text xml:space="preserve">Ya tienes lo que querias, me dejas los diez euros?</Text>
+                <Text xml:space="preserve">Ya tienes lo que querias, me das los diez euros?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3085,21 +3085,22 @@ return
 
 @1
 Antonov: Proteger Carallana ante una mas que probable invasion francesa
+Antonov: Me he vestido como ellos para despistarles
 Juan: Me das las vida
 return
 
 @2
 Antonov: Si, claro, con tanto "disparo" al final me duele la cabeza
 Juan: Me das una pastilla?
-Antonov: Favor por favor camarada, me he quedado sin balas
-Antonov: Te hago un trueque, una pastilla por una bala
+Antonov: Favor por favor camarada, me he quedado sin balas asi que te hago un trueque
+Antonov: Una pastilla por una bala
 Juan: No suelo llevar encima, pero te voy a conseguir una
-Juan: Todo por una noble causa
   dCabarra.SetOptionState(2,eOptionOn);
 return
 
 @3
-Antonov: Me encanta el olor a polvora
+Antonov: mmm polvora fresca
+Antonov: Venid a mi, franchutes!
   player.LoseInventory(iBullet);
 Antonov: Aqui tienes tu pastilla, no te la comas toda de golpe
   player.AddInventory(iIbuprofen);
@@ -3113,7 +3114,7 @@ return
 @4
 Antonov: El gran Oleg Sokolov
 Antonov: Lo conoci en la representacion de la invasion francesa en Zaragoza
-Antonov: Historiador ruso, profesor en la prestigiosa Sorbona de París
+Antonov: Historiador ruso, profesor en la prestigiosa Universidad Sorbona de Paris
 Antonov: Poseedor de la Legion de Honor de Francia
 Antonov: Miembro del Consejo Cientifico del Instituto de Ciencias Sociales, Economicas y Politicas en Francia
 Antonov: Docente en el departamento de historia moderna en la facultad de historia en la universidad estatal de San Petersburgo
