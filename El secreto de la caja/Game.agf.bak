@@ -99,7 +99,7 @@
       <ThreadedAudio>True</ThreadedAudio>
       <Translation />
       <AutoLockMouse>False</AutoLockMouse>
-      <MouseSpeed>2</MouseSpeed>
+      <MouseSpeed>3</MouseSpeed>
       <SpriteCacheSize>256</SpriteCacheSize>
       <UseCustomSavePath>False</UseCustomSavePath>
       <CustomSavePath />
