@@ -3048,7 +3048,7 @@ return
 Elena: Ya le habras dado la tabarra al pobre chico
 Juan: Al reves, menuda chaquetica me ha metido hablando de Sokolov
 Elena: Como te gusta esa historia...
-Juan: Aceite de oliva
+Juan: Es aceite de oliva
 Option-Off-Forever 9
 return
 
@@ -3130,7 +3130,7 @@ return
 @1
 Antonov: Proteger Carallana ante una mas que probable invasion francesa
 Antonov: Me he vestido como ellos para despistarles
-Juan: Me das las vida
+Juan: Me das la vida
 return
 
 @2
@@ -5486,12 +5486,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="217" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="217" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Cerrar hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5501,12 +5501,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="218" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="218" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Cerrar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5516,12 +5516,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="219" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="219" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Coger hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5531,12 +5531,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="220" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="220" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Coger.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5546,12 +5546,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="221" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="221" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Dar hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5561,12 +5561,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="222" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="222" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Dar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5606,13 +5606,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="225" Width="174" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="225" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Hablar hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>46</ImportHeight>
-                      <ImportWidth>174</ImportWidth>
+                      <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5621,13 +5621,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="226" Width="174" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="226" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Hablar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>46</ImportHeight>
-                      <ImportWidth>174</ImportWidth>
+                      <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5636,13 +5636,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="227" Width="174" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="227" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Mirar hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
-                      <ImportWidth>174</ImportWidth>
+                      <ImportHeight>46</ImportHeight>
+                      <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5651,13 +5651,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="228" Width="174" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="228" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Mirar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
-                      <ImportWidth>174</ImportWidth>
+                      <ImportHeight>46</ImportHeight>
+                      <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5666,12 +5666,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="229" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="229" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Tirar hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5681,12 +5681,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="230" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="230" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Tirar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5696,12 +5696,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="231" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="231" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Usar hl.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -5711,12 +5711,12 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="232" Width="173" Height="47" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="232" Width="173" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\dev\github\el-secreto-de-la-caja\Assets\Images\barra scumm\Usar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>47</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>173</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
