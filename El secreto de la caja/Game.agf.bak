@@ -8083,9 +8083,9 @@ stop
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>mapMusic</ScriptName>
                 <ID>0</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Mapa - Lobo Loco - Saudade (ID 1358).mp3</SourceFileName>
+                <ScriptName>mapMusic</ScriptName>
                 <Index>6</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8096,9 +8096,9 @@ stop
                 <FileLastModifiedDate>2021-02-02 00:18:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>townHallMusic</ScriptName>
                 <ID>1</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Plaza - Lobo Loco - Manhattan Skyline (ID 761).mp3</SourceFileName>
+                <ScriptName>townHallMusic</ScriptName>
                 <Index>7</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8109,9 +8109,9 @@ stop
                 <FileLastModifiedDate>2021-02-02 00:52:48Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>shopMusic</ScriptName>
                 <ID>2</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Tienda - Last Bar Guests (ID 1137).mp3</SourceFileName>
+                <ScriptName>shopMusic</ScriptName>
                 <Index>8</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8122,9 +8122,9 @@ stop
                 <FileLastModifiedDate>2021-02-06 02:29:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>livingRoomMusic</ScriptName>
                 <ID>3</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Salon - Lobo Loco - Sunny Walk Around the Block (ID 1332).mp3</SourceFileName>
+                <ScriptName>livingRoomMusic</ScriptName>
                 <Index>9</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8135,9 +8135,9 @@ stop
                 <FileLastModifiedDate>2021-02-02 01:00:10Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>bedroomMusic</ScriptName>
                 <ID>4</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Habitacion - Lobo Loco - Ambient Blues Joe (ID 773).mp3</SourceFileName>
+                <ScriptName>bedroomMusic</ScriptName>
                 <Index>10</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8148,9 +8148,9 @@ stop
                 <FileLastModifiedDate>2021-02-08 13:11:55Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>endingMusic</ScriptName>
                 <ID>5</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Creditos - Monkey Island - Lechuck.mid</SourceFileName>
+                <ScriptName>endingMusic</ScriptName>
                 <Index>11</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8161,9 +8161,9 @@ stop
                 <FileLastModifiedDate>1998-07-15 20:46:12Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>mapGuybrushMusic</ScriptName>
                 <ID>12</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Music\Mapa - Monkey Island - Guybrush.mid</SourceFileName>
+                <ScriptName>mapGuybrushMusic</ScriptName>
                 <Index>20</Index>
                 <Type>2</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8186,9 +8186,9 @@ stop
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aOpenCloseCloset</ScriptName>
                 <ID>6</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\open-close-closet.mp3</SourceFileName>
+                <ScriptName>aOpenCloseCloset</ScriptName>
                 <Index>13</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8199,9 +8199,9 @@ stop
                 <FileLastModifiedDate>2021-02-15 16:31:16Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aOpenCloseDoor</ScriptName>
                 <ID>7</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\open-close-door.mp3</SourceFileName>
+                <ScriptName>aOpenCloseDoor</ScriptName>
                 <Index>14</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8212,9 +8212,9 @@ stop
                 <FileLastModifiedDate>2021-02-15 16:04:24Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aLockUnlock</ScriptName>
                 <ID>8</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\lock-unlock.mp3</SourceFileName>
+                <ScriptName>aLockUnlock</ScriptName>
                 <Index>15</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8225,9 +8225,9 @@ stop
                 <FileLastModifiedDate>2021-02-15 16:03:58Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aLeverOnSewer</ScriptName>
                 <ID>9</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\lever-on-sewer.mp3</SourceFileName>
+                <ScriptName>aLeverOnSewer</ScriptName>
                 <Index>16</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8238,9 +8238,9 @@ stop
                 <FileLastModifiedDate>2021-02-15 16:30:48Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aPushPullMirror</ScriptName>
                 <ID>10</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\push-pull-mirror.mp3</SourceFileName>
+                <ScriptName>aPushPullMirror</ScriptName>
                 <Index>17</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8251,9 +8251,9 @@ stop
                 <FileLastModifiedDate>2021-02-15 17:18:34Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aShopOpenCloseDoor</ScriptName>
                 <ID>11</ID>
                 <SourceFileName xml:space="preserve">C:\dev\github\el-secreto-de-la-caja\Assets\Sound Effects\shop-open-close-door.mp3</SourceFileName>
+                <ScriptName>aShopOpenCloseDoor</ScriptName>
                 <Index>19</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -8285,24 +8285,24 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
