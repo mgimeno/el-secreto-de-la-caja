@@ -2950,7 +2950,7 @@ stop
 @3
 Elena: Muy interesante eso que me cuentas 
 Juan: Elena esto es importante
-Juan: Necesito actualizar la alineacion del Hattrick..
+Juan: Necesito actualizar la alineacion del Hattrick...
 Juan: Quiero decir... necesito leer el mensaje
 Elena: Ahora que lo dices...
 Elena: Te lo dejaste en casa de mis padres
@@ -3302,7 +3302,7 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
-                <Text xml:space="preserve">Parece  la tienda de Pulp Fiction</Text>
+                <Text xml:space="preserve">Parece la tienda de Pulp Fiction</Text>
                 <Show>True</Show>
                 <Say>False</Say>
               </DialogOption>
