@@ -10,8 +10,8 @@ It is a Point & Click Adventure Game inspired by The Secret of Monkey Island.
 
 ## Language
 
-The UI and dialogs are currently only available in Spanish.
+The source code is in english but the game UI and dialogs are currently only available in Spanish.
 
 ## Development
 
-The game was built using the software Adventure Game Studio (AGS).
+The game is built using the software Adventure Game Studio (AGS).
