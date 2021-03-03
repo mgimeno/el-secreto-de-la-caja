@@ -14,4 +14,4 @@ The source code is in english but the game UI and dialogs are currently only ava
 
 ## Development
 
-The game is built using the software Adventure Game Studio (AGS).
+The game is built using the software Adventure Game Studio (AGS 3.5.0 - Patch 7).
