@@ -2,7 +2,11 @@
 
 ## Demo URL
 
-[http://juego.marcosgimeno.com/el-secreto-de-la-caja.zip](http://juego.marcosgimeno.com/el-secreto-de-la-caja.zip)
+[https://www.marcosgimeno.com/el-secreto-de-la-caja](https://www.marcosgimeno.com/el-secreto-de-la-caja)
+
+## Windows (.exe)
+
+[https://www.marcosgimeno.com/jueg/el-secreto-de-la-caja.zip](https://www.marcosgimeno.com/jueg/el-secreto-de-la-caja.zip)
 
 ## What is this?
 
@@ -14,4 +18,4 @@ The source code is in english but the game UI and dialogs are currently only ava
 
 ## Development
 
-The game is built using the software Adventure Game Studio (AGS 3.5.0 - Patch 7).
+Built using Adventure Game Studio (AGS 3.6.1 - Patch 10).
