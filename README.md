@@ -6,7 +6,7 @@
 
 ## Windows (.exe)
 
-[https://www.marcosgimeno.com/jueg/el-secreto-de-la-caja.zip](https://www.marcosgimeno.com/jueg/el-secreto-de-la-caja.zip)
+[https://www.marcosgimeno.com/juego/el-secreto-de-la-caja.zip](https://www.marcosgimeno.com/juego/el-secreto-de-la-caja.zip)
 
 ## What is this?
 
